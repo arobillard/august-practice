@@ -9,10 +9,6 @@
   text-shadow: var(--shadow-primary);
 }
 
-.red {
-  color: red;
-}
-
 .intro h1 {
   line-height: 1;
 }
