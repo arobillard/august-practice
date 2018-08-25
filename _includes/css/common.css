@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #2c8Bd9;
+  --color-secondary: #333;
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Montserrat Alternates", "Montserrat", sans-serif;
+  --shadow-primary: 0 3px 6px rgba(0, 0, 0, .15);
+  --radial-primary: radial-gradient(var(--color-primary), #216ead);
+  --radial-secondary: radial-gradient(#f2f2f2, #d2d2d2);
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, .font-secondary {
+  font-family: var(--font-secondary);
+}

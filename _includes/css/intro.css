@@ -1,0 +1,46 @@
+.intro {
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--radial-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: var(--shadow-primary);
+}
+
+.red {
+  color: red;
+}
+
+.intro h1 {
+  line-height: 1;
+}
+
+.intro h1 span:first-child {
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .intro h1 {
+    line-height: 1;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .intro h1 {
+    line-height: 1;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .intro h1 {
+    line-height: 1;
+  }
+
+}
