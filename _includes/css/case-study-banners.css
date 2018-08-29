@@ -1,0 +1,100 @@
+.cs-banner {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cs-banner .wrapper {
+  display: flex;
+}
+
+.cs-banner.cs-banner-left .wrapper {
+  justify-content: flex-start;
+}
+
+.cs-banner.cs-banner-right .wrapper {
+  justify-content: flex-end;
+}
+
+.cs-banner-content {
+  width: 100%;
+  max-width: 15rem;
+}
+
+.cs-banner-dark p {
+  color: #fff;
+}
+
+.cs-banner-content p,
+.cs-banner-content a {
+  text-shadow: var(--shadow-primary);
+}
+
+.cs-banner-content a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.toptable {
+  background-image: var(--radial-secondary);
+}
+
+.toptable a {
+  color: #00953B;
+}
+
+.toptable .cs-banner-img {
+  position: absolute;
+  bottom: 25%;
+  right: 13%;
+  /* transform: translateY(50%); */
+  width: 50%;
+}
+
+.team-canada {
+  background-image: radial-gradient(#333, #000);
+}
+
+.team-canada a {
+  color: #B42225;
+}
+
+.team-canada .cs-banner-img {
+  position: absolute;
+  bottom: -50%;
+  left: 9%;
+  width: 50%;
+}
+
+.animate-in {
+  opacity: 0;
+  transform: translateY(5rem);
+}
+
+.intro .animate-in,
+.on-screen .animate-in {
+  animation: animateIn .5s ease-in-out forwards;
+}
+
+.intro .animate-in-delay,
+.on-screen .animate-in-delay {
+  animation-delay: .125s;
+}
+
+@keyframes animateIn {
+
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+
+
+}

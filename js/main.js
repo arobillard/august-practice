@@ -13,12 +13,16 @@ $('.tog-nav-holder').on('click', function () {
 $(function() {
    $(window).scroll(function () {
       if ($(this).scrollTop() > 450) {
-         $('.nav-main').removeClass('nav-at-top')
-         $('.tog-nav-holder').removeClass('nav-at-top')
+        $('.nav-main').removeClass('nav-at-top')
+        $('.tog-nav-holder').removeClass('nav-at-top')
+        $('.toptable').addClass('on-screen')
       }
       if ($(this).scrollTop() < 450) {
-         $('.nav-main').addClass('nav-at-top')
-         $('.tog-nav-holder').addClass('nav-at-top')
+        $('.nav-main').addClass('nav-at-top')
+        $('.tog-nav-holder').addClass('nav-at-top')
+      }
+      if ($(this).scrollTop() > 1250) {
+        $('.team-canada').addClass('on-screen')
       }
    });
 });

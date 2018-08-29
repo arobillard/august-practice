@@ -13,6 +13,7 @@
   left: -100vw;
   transition:
     left .25s ease-in-out;
+  z-index: 1000000;
 }
 
 .nav-main.nav-at-top {
