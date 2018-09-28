@@ -1,3 +1,7 @@
+html, body {
+  scroll-snap-type: y mandatory;
+}
+
 .cs-banner {
   width: 100vw;
   height: 100vh;
@@ -5,6 +9,12 @@
   display: flex;
   align-items: center;
   overflow: hidden;
+  scroll-snap-align: start;
+  /* scroll-snap-type: mandatory; */
+
+  /* older spec implementation */
+  /* scroll-snap-destination: 0% 100%;
+  scroll-snap-points-x: repeat(100%); */
 }
 
 .cs-banner .wrapper {
